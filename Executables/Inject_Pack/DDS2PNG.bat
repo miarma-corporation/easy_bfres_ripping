@@ -1,0 +1,2 @@
+for %%f in (OutDDS/*.dds) do "C:\Program Files (x86)\AMD\AMDCompress\AMDCompressCLI.exe" OutDDS/%%f OutPNG/%%~nf.png
+for %%f in (DDS/*.dds) do "C:\Program Files (x86)\AMD\AMDCompress\AMDCompressCLI.exe" DDS/%%f OutPNG/%%~nf.png
