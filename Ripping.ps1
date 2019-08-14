@@ -1,5 +1,3 @@
-# By Tedezed
-
 $path_model_input = "Model_input"
 $path_model_output = "Model_output"
 
