@@ -32,5 +32,6 @@ foreach ($dir in $dirs) {
 ./Executables\Inject_Pack\GTX2DDS.bat
 Remove-Item -Force Executables\Inject_Pack\Convert\*
 cp Executables\Inject_Pack\OutDDS\* $path_model_output
+Remove-Item -Force  Executables\Inject_Pack\OutDDS\*
 
 pause
